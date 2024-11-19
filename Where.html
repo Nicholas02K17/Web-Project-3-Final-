@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where was Treaty 1 Signed</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External stylesheet link -->
+    <style>
+        /* padding: 20px; makes the main information have a bit of space inside it
+        margin: auto; makes all the content shift to the right so it is not at the left of the screen which looks a bit ugly
+        max-width: 800px; makes the contents of the webpage have a limit to the width, or else the width of the contents 
+           will be on the entire width of the webpage */
+        #main-content {
+            padding: 20px;
+            margin: auto;
+            max-width: 800px;
+        }
+
+        .highlight {
+            background-color: #f0e68c;
+            /* this makes the highlighted text the color yellow */
+        }
+
+        /* position: fixed; makes the position of the nav bar follow you wherever you scroll */
+        /* background-color: #027864; makes the color of the nav bar light green */
+        /* width: 100%; makes the nav bar full width of the webpage */
+        /* top: 0; makes the nav bar at the top of the webpage */
+        /* z-index: 1000; makes the nav bar be above all the other elements in the document wherever you scroll on the website */
+        nav {
+            position: fixed;
+            background-color: #027864;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        /* same thing as the #main-content ID but with the #Where-and-when ID */
+        #Where-and-when {
+            padding: 20px;
+            margin: auto;
+            max-width: 800px;
+        }
+
+        /* this is to make the image a specific width so it's not too big */
+        #Where-exactly img {
+            width: 200px;
+        }
+
+        /* same thing as the #main-content ID but with the #Where-exactly ID */
+        #Where-exactly {
+            padding: 20px;
+            margin: auto;
+            max-width: 800px;
+        }
+
+        /* this is to make the figcaption and the image positioned properly */
+        .image-container {
+            margin-left: 0;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <!-- links for the other webpages -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="communities.html">What communities are involved?</a></li>
+                <li><a href="Difference.html">How is Treaty 1 different from different treaties?</a></li>
+                <li><a href="Agreements.html">Agreements between the Crown and Indigenous people</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- section for "How is treaty 1 different from other treaties?"
+        the margin-top makes the section be slightly below the nav bar so that the nav bar doesn't cover it
+        the figure and figcaption is what I fixed in web project 2, the code may now seem a bit confusing, but what I did is I grouped all the things that were sort of standing out into a span, so it all stands out together instead of styling each one individually -->
+    <section id="Where-and-when">
+        <h1 style="margin-top: 50px;">Where and when was the treaty signed?</h1>
+        <!-- section for "Where and when was treaty 1 signed?" -->
+        <p>
+            Treaty 1 was signed in
+            <span class="highlight">1871 on August 3<sup>rd</sup></span>
+            and it was signed in
+            <span class="highlight">Lower Fort Garry</span>.
+        </p>
+        <p>This treaty is important because it recognizes the rights and lands of Indigenous peoples in Canada.</p>
+        <img src="Treaty-1-940x510-1.webp" alt="Image of how treaty 1 looked like when it was at its signing" width="400">
+        <figcaption>
+            This is an image that shows how Treaty 1 looked like at its signing.
+        </figcaption>
+        <figcaption>
+            <a href="https://activehistory.ca/blog/2021/08/09/the-sesquicentennial-of-treaty-1/">Link for the website of how the treaty map looked like</a>
+        </figcaption>
+    </section>
+
+    <!-- I added a figcaption for accessibility for web project 2 (I fixed this), now, there is a figure that groups the map image of treaty 1 -->
+    <section id="Where-exactly">
+        <h2>Where exactly?</h2>
+        <p>It was signed in southern Manitoba where Winnipeg is located.</p>
+        <figure class="image-container">
+            <img src="image1.jpg" alt="This is an image of the treaties in Manitoba, treaty 1 is in the south" width="200">
+            <figcaption>
+                This is a map of the treaties in Manitoba, it also shows where Treaty 1 is.
+            </figcaption>
+            <figcaption>
+                <a href="https://www.sac-isc.gc.ca/eng/1100100020576/1616073943706">Link for the image of the treaty map</a>
+            </figcaption>
+        </figure>
+    </section>
+
+    <!-- this is the footer with the sources -->
+    <footer>
+        <div class="footer-content">
+            <p class="footer-paragraph">This is the source for the map:</p>
+            <a class="footer-link" href="https://www.sac-isc.gc.ca/eng/1100100020576/1616073943706">This is the source of the map</a>
+        </div>
+    </footer>
+</body>
+
+</html>

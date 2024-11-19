@@ -1,0 +1,78 @@
+/* my color family i chose is analogous for this grades 4-8 project.
+- the analogous colors makes the website look more united and balanced which allows my audience (grades 4-8) have a deeper
+concentration on the information (it lets the viewer focus better).
+- grades 4-8 usually drawn to clean designs unlike little kids (grades 1-4) who are drawn to more "childish" website designs like starfall.com
+and that cat in the hat website zander presented on his friday funday presentation. on the other hand, it is not too formal like wikipedia as it has a 
+TON of words or other online encyclopedias, which i personally hated reading when i was at that age (grades 4-8).
+- i also aimed to make at least one of the colors green and make the other colors suit the color green because
+as we know, the color green relates to nature, nature relates to the land and indigenous people always love talking about the land,
+   like for example in their famous phrase "as long as the sun shines, THE GRASS GROWS, and the rivers flow." */
+
+/* font-family: Arial, sans-serif; is the font family */ 
+/* line-height: 1.6; is the line height */ 
+/* background-color: #e0f7fa; is the background color for all the webpages*/
+/* color: #333; is the color of the text */ 
+/* margin: 0; is to eliminate spaces and gaps around the elements */ 
+/* padding: 0; is to eliminate spaces and gaps inside the elements */ 
+body { 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e0f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+ /* color: white; is to make the text in the header white */ 
+ /* text-align: center; is to align the text to center in each part of header */ 
+ /* width: 100%; is to make the width of the text large, so it is more visible */ 
+header { 
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+/* text-align: center; is to align the text to center in each part of the nav elements*/
+ /* list-style-type: none; removes the default bullet points from the list items <li> in the ul */
+ /* padding: 0; is to eliminate spaces and gaps inside the elements */ 
+nav ul { 
+    text-align: center;  
+    list-style-type: none; 
+    padding: 0; 
+}
+
+ /* display: inline; makes the lists display in a single horizontal line */ 
+ /* margin-right: 15px; makes the lists slightly right so that I can make sure that the person knows that this is a list */ 
+nav ul li { 
+    display: inline;
+    margin-right: 15px;
+}
+
+ /* color: white; makes the text in the header white */ 
+ /* text-decoration: none; makes the ugly link lines go away in the navigation bar, they kinda look disgusting */ 
+nav a { 
+    color: white;
+    text-decoration: none;
+}
+
+    /*i have moved the footer elements from internal css from every webpage to here because the footer should be the same for every webpage, this is something
+    that i have changed since web project 2*/
+    /* text-align: center; makes the links go to the center so they aren't on the left of the footer, which does not look good */ 
+    /* padding: 10px 0; makes the text have a little space inside the link */ 
+    /* background-color: #027864; makes the background color of the footer match the background color of the header */
+    /*width: 100%; makes the footer strech accross the entire webpage*/
+    /*color: white; makes the text color of the footer white*/
+    footer { 
+    text-align: center;
+    padding: 10px 0;
+    background-color: #027864;
+    width: 100%;
+    color: white;
+    }
+    
+    /*it is easier to just do a hex than type in "light blue" or "blue"*/
+    /*this is to make the links blue, otherwise, some links are dark blue and some are blue, this is not visually appealing*/
+    .footer-link {
+        color: #80e6d1
+    }
+    
